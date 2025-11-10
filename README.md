@@ -43,4 +43,4 @@ A avaliação comparativa do desempenho no conjunto de **Teste** foi decisiva:
 
 ### Conclusão
 
-O modelo **VGG16 é o mais recomendado** para esta aplicação. Embora a AlexNet tenha atingido um pico de acurácia de validação similar, a VGG16 demonstrou \textbf{generalização perfeita} ($\mathbf{100\%}$ de acurácia com $\mathbf{zero}$ erros críticos) no conjunto de Teste, o que é fundamental para sistemas que exigem máxima confiabilidade e segurança.
+O modelo **VGG16 é o mais recomendado** para esta aplicação. Embora a AlexNet tenha atingido um pico de acurácia de validação similar, a VGG16 demonstrou generalização perfeita -> 100% de acurácia com zero erros críticos) no conjunto de teste, o que é fundamental para sistemas que exigem máxima confiabilidade e segurança.
