@@ -29,7 +29,7 @@ O projeto foi configurado para ser executado integralmente no ambiente **Google 
 
 ## 📊 3. Metodologia
 
-O projeto empregou o \textbf{Transfer Learning} com pesos pré-treinados no ImageNet para ambas as arquiteturas. As camadas de extração de características foram congeladas, treinando apenas as camadas densas finais para a classificação binária. O treinamento foi realizado por **50 épocas**.
+O projeto empregou o Transfer Learning com pesos pré-treinados no ImageNet para ambas as arquiteturas. As camadas de extração de características foram congeladas, treinando apenas as camadas densas finais para a classificação binária. O treinamento foi realizado por **50 épocas**.
 
 ## 📈 4. Resultados Finais
 
