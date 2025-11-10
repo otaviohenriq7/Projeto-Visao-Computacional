@@ -39,7 +39,7 @@ A avaliação comparativa do desempenho no conjunto de **Teste** foi decisiva:
 | :--- | :--- | :--- | :--- |
 | **Acurácia de Teste** | $\mathbf{100\%}$ | $99,35\%$ | VGG16 eliminou todos os erros. |
 | **Falsos Negativos (FN)** | $\mathbf{0}$ | 1 | AlexNet falhou em 1 caso "Com Máscara". |
-| **Robustez (\textit{Val Loss})** | Alta Estabilidade | Baixa Estabilidade | VGG16 mostrou menor suscetibilidade ao \textit{overfitting}. |
+| **Robustez (\textit{Val Loss})** | Alta Estabilidade | Baixa Estabilidade | VGG16 mostrou menor suscetibilidade ao overfitting. |
 
 ### Conclusão
 
