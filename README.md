@@ -37,7 +37,7 @@ O projeto empregou o **Transfer Learning** com pesos pré-treinados no ImageNet 
 
 ---
 
-## 📈 4. Resultados Finais
+## 4. Resultados Finais
 
 A avaliação comparativa do desempenho no conjunto de **Teste** foi decisiva e focada na robustez.
 
