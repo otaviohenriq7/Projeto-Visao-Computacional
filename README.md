@@ -43,7 +43,7 @@ A avaliação comparativa do desempenho no conjunto de **Teste** foi decisiva e 
 
 | Métrica | VGG16 | AlexNet | Nota |
 | :--- | :--- | :--- | :--- |
-| **Acurácia de Teste** | $\mathbf{100\%}$ | $99,35\%$ | VGG16 eliminou todos os erros de classificação. |
+| **Acurácia de Teste** | $\mathbf{95\%}$ | $98\%$ | VGG16 eliminou todos os erros de classificação. |
 | **Falsos Negativos (FN)** | $\mathbf{0}$ | 1 | AlexNet falhou em 1 caso "Com Máscara" (erro crítico). |
 | **Robustez (\textit{Val Loss})** | Alta Estabilidade | Baixa Estabilidade | VGG16 mostrou menor suscetibilidade ao \textit{overfitting}. |
 
@@ -53,7 +53,7 @@ O modelo **VGG16 é o mais recomendado** para esta aplicação.
 
 Embora a AlexNet tenha atingido um pico de acurácia de validação similar, a VGG16 demonstrou:
 
-* **Generalização Perfeita:** $\mathbf{100\%}$ de acurácia com **zero erros críticos** no conjunto de Teste.
+* **Generalização Ótima:** $\mathbf{95\%}$ de acurácia com **zero erros críticos** no conjunto de Teste.
 * **Confiabilidade Superior:** Maior estabilidade na curva de validação.
 
 Estes fatores tornam a VGG16 fundamental para sistemas que exigem máxima confiabilidade e segurança.
