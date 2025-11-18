@@ -1,6 +1,6 @@
 # 😷 Classificação de Máscara Facial com Deep Learning (AlexNet vs VGG16)
 
-## 🎯 1. Objetivo do Projeto
+## 1. Objetivo do Projeto
 
 Este projeto realiza uma **análise comparativa** detalhada entre duas arquiteturas de Redes Neurais Convolucionais (CNN) clássicas, **AlexNet** e **VGG16**, na tarefa de classificação binária de imagens de uso de máscara facial.
 
@@ -8,7 +8,7 @@ O foco é determinar qual arquitetura oferece a melhor **capacidade de generaliz
 
 ---
 
-## 💻 2. Como Executar (Google Colab)
+## 2. Como Executar (Google Colab)
 
 O projeto foi configurado para ser executado integralmente no ambiente **Google Colab**, pois utiliza o hardware com GPU e exige a autenticação via API do Kaggle para acesso ao dataset.
 
@@ -31,7 +31,7 @@ O projeto foi configurado para ser executado integralmente no ambiente **Google 
 
 ---
 
-## 📊 3. Metodologia
+## 3. Metodologia
 
 O projeto empregou o **Transfer Learning** com pesos pré-treinados no ImageNet para ambas as arquiteturas. As camadas de extração de características (features) foram **congeladas**, treinando apenas as camadas densas finais para a classificação binária. O treinamento foi realizado por **50 épocas**.
 
