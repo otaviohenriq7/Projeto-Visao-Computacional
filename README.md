@@ -1,5 +1,7 @@
 # 😷 Classificação de Máscara Facial com Deep Learning (AlexNet vs VGG16)
 
+Link da apresentação do projeto: https://youtu.be/2FpYy_PDXQo
+
 ## 1. Objetivo do Projeto
 
 Este projeto realiza uma **análise comparativa** detalhada entre duas arquiteturas de Redes Neurais Convolucionais (CNN) clássicas, **AlexNet** e **VGG16**, na tarefa de classificação binária de imagens de uso de máscara facial para a matéria de Introdução à Visão Computacional (SIN 393) orientado pelo Professor Dr.João Fernando Mari.
@@ -45,7 +47,7 @@ A avaliação comparativa do desempenho no conjunto de **Teste** foi decisiva e 
 | :--- | :--- | :--- | :--- |
 | **Acurácia de Teste** | $\mathbf{95\%}$ | $98\%$ | VGG16 eliminou todos os erros de classificação. |
 | **Falsos Negativos (FN)** | $\mathbf{0}$ | 1 | AlexNet falhou em 1 caso "Com Máscara" (erro crítico). |
-| **Robustez (\textit{Val Loss})** | Alta Estabilidade | Baixa Estabilidade | VGG16 mostrou menor suscetibilidade ao \textit{overfitting}. |
+| **Robustez (Perda de Validação) | Alta Estabilidade | Baixa Estabilidade | VGG16 mostrou menor suscetibilidade ao \textit{overfitting}. |
 
 ### Conclusão
 
