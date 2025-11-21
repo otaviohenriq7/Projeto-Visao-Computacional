@@ -2,7 +2,7 @@
 
 ## 1. Objetivo do Projeto
 
-Este projeto realiza uma **análise comparativa** detalhada entre duas arquiteturas de Redes Neurais Convolucionais (CNN) clássicas, **AlexNet** e **VGG16**, na tarefa de classificação binária de imagens de uso de máscara facial.
+Este projeto realiza uma **análise comparativa** detalhada entre duas arquiteturas de Redes Neurais Convolucionais (CNN) clássicas, **AlexNet** e **VGG16**, na tarefa de classificação binária de imagens de uso de máscara facial para a matéria de Introdução à Visão Computacional (SIN 393) orientado pelo Professor Dr.João Fernando Mari.
 
 O foco é determinar qual arquitetura oferece a melhor **capacidade de generalização** e **confiabilidade** para a aplicação, avaliando a estabilidade do treinamento e, criticamente, o desempenho no conjunto de Teste (Matriz de Confusão).
 
